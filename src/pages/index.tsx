@@ -1,14 +1,26 @@
-import {FC} from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { FC } from 'react';
+import { Col, Row } from 'antd';
+import { FileSearch } from '../components';
+import { FileSearchProps } from '../type';
+import './index.css';
 
 const Index: FC<any> = () => {
-    return <div className="container-fluid">
-        <div className="row">
-            <div className="col-3 left-panel bg-danger">
-                left
-            </div>
-            <div className="col-9 right-panel bg-primary">right</div>
-        </div>
+
+    // ------------------------------------------------------------------------------------------------------------------------
+
+    const onFileSearch = (e: string) => {
+        console.log('onFileSearch', e);
+    };
+
+    // ------------------------------------------------------------------------------------------------------------------------
+
+    return <div>
+        <Row>
+            <Col span={6}>
+                <div className="left"><FileSearch onFileSearch={onFileSearch} /></div>
+            </Col>
+            <Col style={{ background: 'blue' }} span={18}>right</Col>
+        </Row>
     </div>
 };
 
