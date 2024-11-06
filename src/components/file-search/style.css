@@ -1,3 +1,15 @@
-.file-search{
-    flex:1;
+.file-search {
+  /* flex:1; */
+  margin-bottom: 10px;
+}
+
+:where(.css-dev-only-do-not-override-apn68).ant-input-filled {
+  background-color: #d3ede1;
+  font-size: 12px;
+}
+
+:where(.css-dev-only-do-not-override-apn68).ant-input-filled:focus,
+:where(.css-dev-only-do-not-override-apn68).ant-input-filled:focus-within {
+  border-color: #007440;
+  background-color: #d3ede1;
 }

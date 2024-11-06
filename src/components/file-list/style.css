@@ -1,0 +1,35 @@
+.file-list {
+  flex: 1;
+  overflow: scroll;
+  border-radius: 8px;
+  /* background-color: #f5f5f5; */
+  margin-right: -4px;
+}
+
+:where(.css-dev-only-do-not-override-apn68).ant-list .ant-list-item {
+  justify-content: flex-start;
+}
+
+.list-item-icon {
+  margin-right: 8px;
+  color: #00aa5d;
+  cursor: pointer;
+}
+
+.file-list .ant-list-items .ant-list-item {
+  padding: 12px 8px;
+  border-radius: 8px;
+  /* cursor: pointer; */
+}
+
+.file-list .ant-list-items .ant-list-item:hover {
+  background-color: #fbfbfb;
+}
+
+.file-list .ant-list-items .ant-list-item.active-file {
+  background-color: #e6e6e6;
+}
+
+.file-item-title {
+  cursor: pointer;
+}

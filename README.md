@@ -1,4 +1,3 @@
-
 # egg-cloud-doc
 
 ## 介绍
@@ -40,6 +39,3 @@ npm run dev
 ### wait-on
 
 - 解释：等待文件或者 url 出现
-
-
-

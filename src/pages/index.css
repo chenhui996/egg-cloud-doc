@@ -1,5 +1,14 @@
-.left{
-    height:100vh;
-    padding: 8px;
-    display: flex;
+.left {
+  height: 100vh;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.left-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
